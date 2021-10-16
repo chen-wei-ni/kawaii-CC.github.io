@@ -1,0 +1,161 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Video Sharing Website
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js") 
+        link(rel="stylesheet", href="style.css")
+    body 
+
+        nav.flex-div 
+            .nav-left.flex-div 
+                img.menu-icon(src="images/menu.png", alt="menu")
+                img.logo(src="images/logo.png", alt="logo")
+            .nav-middle.flex-div 
+                .search-box.flex-div 
+                    input(type="text" placeholder="搜尋")
+                    img(src="images/search.png", alt="Search")
+                img.mic-icon(src="images/voice-search.png", alt="voice-search")
+            .nav-right.flex-div
+                img(src="images/upload.png", alt="upload")
+                img(src="images/more.png", alt="more")
+                img(src="images/notification.png", alt="notification")
+                img.user-icon(src="images/Steam.jpg", alt="me")
+        
+        //----------------------------------siderbar------------------//
+
+        .sidebar 
+            .shortcut-links 
+                a(href="")
+                    img(src="images/home.png")
+                    p 首頁
+                a(href="")
+                    img(src="images/explore.png")
+                    p 探索
+                a(href="")
+                    img(src="images/subscriprion.png")
+                    p 訂閱內容
+                a(href="")
+                    img(src="images/library.png")
+                    p 媒體庫
+                a(href="")
+                    img(src="images/history.png")
+                    p 觀看紀錄
+                a(href="")
+                    img(src="images/playlist.png")
+                    p 你的影片
+                a(href="")
+                    img(src="images/messages.png")
+                    p 訊息
+                a(href="")
+                    img(src="images/show-more.png")
+                    p 顯示更多
+                hr
+            .subscribed-list 
+                h3 訂閱內容 
+                a(href="") 
+                    img(src="images/Steam.jpg")
+                    p Kawaii CC
+                a(href="") 
+                    img(src="images/simon.png")
+                    p Simon Baker
+                a(href="") 
+                    img(src="images/tom.png")
+                    p Tom Hardy
+                a(href="") 
+                    img(src="images/megan.png")
+                    p Megan Ryan
+                a(href="") 
+                    img(src="images/cameron.png")
+                    p Cameron Diaz
+        //----------main-----------------------------------
+
+        .container 
+            .banner 
+                img(src="images/kawaii.jpg", alt="banner")
+            .list-container 
+                .vid-list
+                    a(href="play-video.html") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="play-video.html") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+                
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+                
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+                
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+                
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+        
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+
+                .vid-list
+                    a(href="") 
+                        img.thumbnail(src="images/thumbnail1.png")
+                    .flex-div 
+                        img(src="images/Steam.jpg")
+                        .vid-info 
+                            a(href="") Best channel to learn coding that help you to be a developer 
+                            p Easy Tutorials 
+                            p 15k Views &bull; 2 days
+        
+        
+        script(src="script.js") 
+

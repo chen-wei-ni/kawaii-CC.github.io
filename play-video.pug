@@ -1,0 +1,212 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Play Video - Easy Tutorials YouTube Channel
+        link(rel="stylesheet", href="style.css")
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js") 
+    body 
+        nav.flex-div 
+            .nav-left.flex-div 
+                img.menu-icon(src="images/menu.png", alt="menu")
+                img.logo(src="images/logo.png", alt="logo")
+            .nav-middle.flex-div 
+                .search-box.flex-div 
+                    input(type="text" placeholder="Search")
+                    img(src="images/search.png", alt="Search")
+                img.mic-icon(src="images/voice-search.png", alt="voice-search")
+            .nav-right.flex-div
+                img(src="images/upload.png", alt="upload")
+                img(src="images/more.png", alt="more")
+                img(src="images/notification.png", alt="notification")
+                img.user-icon(src="images/Jack.png", alt="me")
+        
+        //----------------------------------siderbar------------------//
+
+        .sidebar.side-play
+            .shortcut-links 
+                a(href="")
+                    img(src="images/home.png")
+                    p 首頁
+                a(href="")
+                    img(src="images/explore.png")
+                    p 探索
+                a(href="")
+                    img(src="images/subscriprion.png")
+                    p 訂閱內容
+                a(href="")
+                    img(src="images/library.png")
+                    p 媒體庫
+                a(href="")
+                    img(src="images/history.png")
+                    p 觀看紀錄
+                a(href="")
+                    img(src="images/playlist.png")
+                    p 你的影片
+                a(href="")
+                    img(src="images/messages.png")
+                    p 訊息
+                a(href="")
+                    img(src="images/show-more.png")
+                    p 顯示更多
+                hr
+            .subscribed-list 
+                h3 SUBSCRIBED 
+                a(href="") 
+                    img(src="images/Jack.png")
+                    p Jack Nicholson
+                a(href="") 
+                    img(src="images/simon.png")
+                    p Simon Baker
+                a(href="") 
+                    img(src="images/tom.png")
+                    p Tom Hardy
+                a(href="") 
+                    img(src="images/megan.png")
+                    p Megan Ryan
+                a(href="") 
+                    img(src="images/cameron.png")
+                    p Cameron Diaz
+        .whiteWall
+        .container.play-container
+            .row 
+                .play-video 
+                    video(controls muted  autoplay ) <!--可控制撥放鍵、自動撥放-->
+                        source(src="images/video.mp4", type="video/mp4")
+                    .tags 
+                        a(href="") #Coding 
+                        a(href="") #Html
+                        a(href="") #Css
+                        a(href="") #JavaScript
+                    h3 Best YouTube Channel to Learn Web Development  
+                    .play-video-info 
+                        p 1225 Views &bull; 2days ago 
+                        div 
+                            a(href="") 
+                                img(src="images/like.png") 
+                                span 125                                
+                            a(href="") 
+                                img(src="images/dislike.png") 
+                                span 1
+                            a(href="") 
+                                img(src="images/share.png")
+                                span Share 
+                            a(href="") 
+                                img(src="images/save.png") 
+                                span Save
+                    hr
+                    .plublisher 
+                        img(src="images/Jack.png")
+                        div 
+                            p Easy Tutorials 
+                            span 500k Subscribers 
+                        button(type="button") Subscribe
+                    .vid-description 
+                        p Channel that makes learning easy 
+                        p Subscribe Easy Tutorials to watch more tutorials on web development
+                        hr
+                        h4 134 Comments
+
+                        .add-comment 
+                            img(src="images/Jack.png")
+                            input(type="text" placeholder="新增公開留言…")
+
+                        .old-comments 
+                             img(src="images/Jack.png")
+                             div 
+                                h3 Jack Nicholson 
+                                    span 2 days ago
+                                p Learn How To Make A Website Like YouTube Using HTML, CSS And JavaScript | Video Sharing Website Design Front-end, Step by step tutorial
+
+                                .acomment-action 
+                                    img(src="images/like.png")
+                                    span 244
+                                    img(src="images/dislike.png")
+                                    span 2
+                                    span 回覆
+                                    a(href="") 查看所有回覆
+
+                        .old-comments 
+                             img(src="images/Jack.png")
+                             div 
+                                h3 Jack Nicholson 
+                                    span 2 days ago
+                                p Learn How To Make A Website Like YouTube Using HTML, CSS And JavaScript | Video Sharing Website Design Front-end, Step by step tutorial
+
+                                .acomment-action 
+                                    img(src="images/like.png")
+                                    span 244
+                                    img(src="images/dislike.png")
+                                    span 2
+                                    span 回覆
+                                    a(href="") 查看所有回覆
+
+                        .old-comments 
+                             img(src="images/Jack.png")
+                             div 
+                                h3 Jack Nicholson 
+                                    span 2 days ago
+                                p Learn How To Make A Website Like YouTube Using HTML, CSS And JavaScript | Video Sharing Website Design Front-end, Step by step tutorial
+
+                                .acomment-action 
+                                    img(src="images/like.png")
+                                    span 244
+                                    img(src="images/dislike.png")
+                                    span 2
+                                    span 回覆
+                                    a(href="") 查看所有回覆
+
+
+
+                .right-sidebar
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail1.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail2.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail3.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail4.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail5.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+
+                    .side-video-list 
+                        a.small-thumbnail(href="") 
+                            img(src="images/thumbnail6.png")
+                        .vid-info 
+                            a(href="") Best channel that help you to be a web developer 
+                            p Easy Tutoials 
+                            p 15k Views
+                       
+        script(src="play-video.js")
